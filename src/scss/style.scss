@@ -1,0 +1,62 @@
+
+.header-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(243, 243, 243);
+  border-radius: 10px;
+  .card-item {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: rgb(2, 0, 36);
+    background: rgb(2, 0, 36);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      252deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(247, 240, 234, 1) 0%,
+      rgba(114, 184, 231, 1) 50%
+    );
+    &:hover {
+      scale: 1.05;
+    }
+    .logo-card {
+      display: flex;
+      justify-content: center;
+      padding-top: 20px;
+    }
+    .card-title {
+      color: red;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+    .card-price {
+      color: #000000;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+  }
+}
+
+.QR-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+}
